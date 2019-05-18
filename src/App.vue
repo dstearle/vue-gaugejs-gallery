@@ -45,7 +45,7 @@
 
   import DonutGauge from "./components/Gauges/DonutGauge.vue";
   import RegularGauge from "./components/Gauges/RegularGauge.vue";
-  //import SectionGauge from "./components/Gauges/SectionGauge.vue";
+  import SectionGauge from "./components/Gauges/SectionGauge.vue";
   //import ThrottleGauge from "./components/Gauges/ThrottleGauge.vue";
     
   export default {
@@ -55,7 +55,7 @@
           //appTestComponent: TestComponent,
           appDonutGauge: DonutGauge,
           appRegularGauge: RegularGauge,
-          //appSectionGauge: SectionGauge,
+          appSectionGauge: SectionGauge,
           //appThrottleGauge: ThrottleGauge
           
       },
