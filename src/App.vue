@@ -16,7 +16,6 @@
 
                   <br>
 
-
                 <app-donut-gauge></app-donut-gauge>
 
                   <br>
@@ -41,8 +40,7 @@
 
 <script>
 
-  //import TestComponent from "./components/TestComponent.vue";
-
+  import TestComponent from "./components/TestComponent.vue";
   import DonutGauge from "./components/Gauges/DonutGauge.vue";
   import RegularGauge from "./components/Gauges/RegularGauge.vue";
   import SectionGauge from "./components/Gauges/SectionGauge.vue";
@@ -52,7 +50,7 @@
       
       components: {
           
-          //appTestComponent: TestComponent,
+          appTestComponent: TestComponent,
           appDonutGauge: DonutGauge,
           appRegularGauge: RegularGauge,
           appSectionGauge: SectionGauge,
