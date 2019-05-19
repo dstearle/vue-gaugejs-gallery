@@ -17,6 +17,6 @@
 
 <br>
 
-<strong>Acknowledgements:</strong>
+<strong>Source:</strong>
 
 - gaugeJS https://bernii.github.io/gauge.js/#!
