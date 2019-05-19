@@ -15,6 +15,8 @@
 - To install gaugeJS you can install the node package with (npm i gaugeJS). Link for reference https://www.npmjs.com/package/gaugeJS.
 - To run the application use (npm run serve).
 
+<br>
+
 <strong>Acknowledgements:</strong>
 
 - gaugeJS https://bernii.github.io/gauge.js/#!
