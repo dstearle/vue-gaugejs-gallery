@@ -21,7 +21,7 @@
 
   <br>
   
-  <strong>gaugeScore :</strong>
+  gaugeScore :
   
 - gaugeScore is what determines the value for the graph and can be passed down from another component.
 - The value for gaugeScore determines the length of the bar for the gauge and the animated number that is generated (if there is one).
