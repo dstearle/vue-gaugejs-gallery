@@ -41,6 +41,44 @@
       <td>Sets the value of the gauge to 35</td>
     </tr>
   </table>
+  
+  <br>
+  
+  opts :
+  
+- opts is used as a data object that contains all of the relevant features for styling the gauge.
+- The value for gaugeScore determines the length of the bar for the gauge and the animated number that is generated (if there is one).
+- If you like you can take other data objects from "opts" and put them into props.
+  
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Explanation</th>
+    </tr>
+  
+    <tr>
+      <td>Data</td>
+      <td>angle</td>
+      <td>0.1</td>
+      <td>Sets the gauge angle (for example half circle or full circle)</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>lineWidth</td>
+      <td>0.44</td>
+      <td>Sets the thickiness of the gauge</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>radiusScale</td>
+      <td>1</td>
+      <td>Sets the radius of the gauge</td>
+    </tr>
+  </table>
 
 <br>
 
