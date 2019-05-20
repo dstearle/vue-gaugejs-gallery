@@ -19,7 +19,10 @@
 
 <strong>Customizing your gauges :</strong>
 
+  <br>
+  
   <strong>Props :</strong>
+  
 - gaugeScore is what determines the value for the graph and can be passed down from another component.
 - The value for gaugeScore determines the length of the bar for the gauge and the animated number that is generated (if there is one).
 - If you like you can take other data objects from "opts" and put them into props.
