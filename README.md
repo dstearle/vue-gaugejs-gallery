@@ -25,6 +25,12 @@
   
   <table>
     <tr>
+      <th>Type</th>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Explanation</th>
+    </tr>
+    <tr>
       <td>Props</td>
       <td>gaugeScore</td>
       <td>35</td>
