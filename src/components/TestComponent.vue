@@ -33,7 +33,13 @@ export default {
         return {
             score: 500
         }
-    }
+    },
+    // Randomizes the score of the gauge for demonstration. Comment out for actual use.
+    created(){
+        setInterval(() => {
+            this.score = Math.random() * 500
+        },1000)
+    },
     
 }
 
