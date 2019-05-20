@@ -3,7 +3,7 @@
 <strong>What is this project?:</strong>
 
 - The vue-gaugejs-gallery project is a collection of gauges from gaugeJS that can be used in vue projects.
-- You can customize any of the gauges as you would shown in the demo for gaugeJS (listed below).
+- You can customize any of the gauges as you would shown in the demo for gaugeJS (link listed below).
 - The "test component" and "test gauge" are just an example of how you would implement the gauge as a reusable component 
   where the value of gaugeScore is passed down from props.
 
