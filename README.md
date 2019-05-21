@@ -80,6 +80,8 @@
     </tr>
   </table>
   
+  <br>
+  
   pointer :
   
   - Part of "opts" data object.
