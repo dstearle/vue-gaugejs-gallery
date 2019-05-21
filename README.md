@@ -79,9 +79,44 @@
       <td>Sets the radius of the gauge</td>
     </tr>
   </table>
+  
+  pointer :
+  
+  - Part of "opts" data object.
+  - Controls appearance of the point in the gauge.
+  
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Name</th>
+      <th>Value</th>
+      <th>Explanation</th>
+    </tr>
+  
+    <tr>
+      <td>Data</td>
+      <td>length</td>
+      <td>0.6</td>
+      <td>Sets the length for the pointer</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>strokeWidth</td>
+      <td>0.035</td>
+      <td>Sets the thickiness of the pointer</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>color</td>
+      <td>"#000000"</td>
+      <td>Sets the color for the pointer</td>
+    </tr>
+  </table>
 
 <br>
 
-<strong>Source:</strong>
+<strong>Source :</strong>
 
 - gaugeJS https://bernii.github.io/gauge.js/#!
