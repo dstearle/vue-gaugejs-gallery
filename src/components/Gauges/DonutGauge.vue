@@ -77,6 +77,7 @@ export default {
     // Checks for new value for gaugeScore
     gaugeScore: function(newVal) {
       this.gauge.set(newVal);
+      this.gaugeColor();
     },
   },
   methods: {
