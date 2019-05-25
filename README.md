@@ -83,9 +83,10 @@
   <br>
   
   pointer :
-  
-  - Part of "opts" data object.
-  - Controls appearance of the point in the gauge.
+  <ul>
+  <li>Part of "opts" data object.</li>
+  <li>Controls appearance of the point in the gauge.</li>
+  </ul>
   
   <table>
     <tr>
