@@ -82,11 +82,11 @@
   
   <br>
   
-  pointer :
+  gaugeScore :
   
-  - Part of "opts" data object.
-  - Controls appearance of the point in the gauge.
-  
+- gaugeScore is what determines the value for the graph and can be passed down from another component.
+- The value for gaugeScore determines the length of the bar for the gauge and the animated number that is generated (if there is one).
+- If you like you can take other data objects from "opts" and put them into props.
   
   <table>
     <tr>
@@ -95,30 +95,15 @@
       <th>Value</th>
       <th>Explanation</th>
     </tr>
-  
     <tr>
-      <td>Data</td>
-      <td>length</td>
-      <td>0.6</td>
-      <td>Sets the length for the pointer</td>
-    </tr>
-    
-    <tr>
-      <td>Data</td>
-      <td>strokeWidth</td>
-      <td>0.035</td>
-      <td>Sets the thickiness of the pointer</td>
-    </tr>
-    
-    <tr>
-      <td>Data</td>
-      <td>color</td>
-      <td>"#000000"</td>
-      <td>Sets the color for the pointer</td>
+      <td>Props</td>
+      <td>gaugeScore</td>
+      <td>35</td>
+      <td>Sets the value of the gauge to 35</td>
     </tr>
   </table>
-
-<br>
+  
+  <br>
 
 <strong>Source :</strong>
 
