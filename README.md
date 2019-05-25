@@ -78,6 +78,41 @@
       <td>1</td>
       <td>Sets the radius of the gauge</td>
     </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>limitMax</td>
+      <td>false</td>
+      <td>If false, max value increases automatically if value > maxValue</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>limitMin</td>
+      <td>false</td>
+      <td>If true, the min value of the gauge will be fixed</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>colorStop</td>
+      <td>"#ffc107"</td>
+      <td>The color of the bar in the gauge</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>strokeColor</td>
+      <td>"#E0E0E0"</td>
+      <td>The color of the background in the gauge</td>
+    </tr>
+    
+    <tr>
+      <td>Data</td>
+      <td>highDpiSupport</td>
+      <td>true</td>
+      <td>High resolution support</td>
+    </tr>
   </table>
   
   <br>
