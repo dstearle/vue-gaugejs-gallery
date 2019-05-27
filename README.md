@@ -121,6 +121,10 @@
   
 - Part of "opts" data object.
 - Controls appearance of the point in the gauge.
+
+<br>
+
+renderTicks:
   
   <table>
     <tr>
