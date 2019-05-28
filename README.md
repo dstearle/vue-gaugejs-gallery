@@ -131,6 +131,22 @@
 - Controls appearance, amount and spacing of the "ticks", which are the marks in the gauage.
   
   <br>
+  
+  staticLabels :
+  
+- Part of "opts" data object.
+- Is optional cosmetic feature. Comment out or remove if you do not wish to have labels for your ticks.
+- Allows you to place labels above the ticks on the gauge.
+  
+  <br>
+  
+    staticZones :
+  
+- Part of "opts" data object.
+- Is optional cosmetic feature. Comment out or remove if you do not wish to have a multi-colored gauge.
+- Allows you to use multiple colors on your gauge such sections.
+  
+  <br>
 
 <strong>Source :</strong>
 
