@@ -124,37 +124,11 @@
 
 <br>
 
-renderTicks:
+  renderTicks :
   
-  <table>
-    <tr>
-      <th>Type</th>
-      <th>Name</th>
-      <th>Value</th>
-      <th>Explanation</th>
-    </tr>
-  
-    <tr>
-      <td>Data</td>
-      <td>length</td>
-      <td>0.6</td>
-      <td>Sets the length for the pointer</td>
-    </tr>
-    
-    <tr>
-      <td>Data</td>
-      <td>strokeWidth</td>
-      <td>0.035</td>
-      <td>Sets the thickiness of the pointer</td>
-    </tr>
-    
-    <tr>
-      <td>Data</td>
-      <td>color</td>
-      <td>"#000000"</td>
-      <td>Sets the color for the pointer</td>
-    </tr>
-  </table>
+- Part of "opts" data object.
+- Is optional cosmetic feature. Comment out or remove if you do not wish to show ticks on your gauge.
+- Controls appearance, amount and spacing of the "ticks", which are the marks in the gauage.
   
   <br>
 
