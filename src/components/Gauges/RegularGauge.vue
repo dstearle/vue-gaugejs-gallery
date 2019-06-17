@@ -4,19 +4,19 @@
 
     <div class="card bg-light">
 
-        <h5 class="card-header">Regular Gauge</h5>
+      <h5 class="card-header">Regular Gauge</h5>
 
-        <div class="col card-body p-5">
+      <div class="col card-body p-5">
 
-            <div class="row align-items-center justify-content-center">
+        <div class="row align-items-center justify-content-center">
 
-              <span ref="myGauge" class="gaugeStyle"></span>
+          <span ref="myGauge" class="gaugeStyle"></span>
 
-              <canvas ref="op"></canvas>
+          <canvas ref="op"></canvas>
 
-            </div>
-                
-          </div>
+        </div>
+              
+      </div>
       
     </div>
     
@@ -106,40 +106,40 @@ export default {
   methods: {
     // Creates the graph to be rendered
     initializeGauge() {
-        this.gauge = new Gauge(this.$refs.op); // Sets the type of guage you wish to use (Gauge, Donut)
-        this.gauge.maxValue = 100; // set max gauge value
-        this.gauge.setMinValue(0); // Prefer setter over gauge.minValue = 0
-        this.gauge.animationSpeed = 32; // set animation speed (32 is default value)
-        this.gauge.setOptions(this.opts);
+      this.gauge = new Gauge(this.$refs.op); // Sets the type of guage you wish to use (Gauge, Donut)
+      this.gauge.maxValue = 100; // set max gauge value
+      this.gauge.setMinValue(0); // Prefer setter over gauge.minValue = 0
+      this.gauge.animationSpeed = 32; // set animation speed (32 is default value)
+      this.gauge.setOptions(this.opts);
 
-        // Sets the animated score into the text field
-        // this.gauge.setTextField(
-        //     this.$refs['myGauge'],
-        //     this.decimalPlace
-        // );
+      // Sets the animated score into the text field
+      // this.gauge.setTextField(
+      //     this.$refs['myGauge'],
+      //     this.decimalPlace
+      // );
 
-        this.gauge.set(this.gaugeScore); // Sets the value for both the gauge bar and the displayed score
+      this.gauge.set(this.gaugeScore); // Sets the value for both the gauge bar and the displayed score
     },
     // Determines color of the bar for the gauge
     gaugeColor() {
-        if(this.gaugeScore >= 80) {
-            this.opts.colorStop = '#15a15f';
-            this.initializeGauge();
-            // console.log("test1")
-            // console.log(this.opts.colorStop)
-        }
-        else if(this.gaugeScore < 80 && this.gaugeScore > 50) {
-            this.opts.colorStop = '#ffc107';
-            this.initializeGauge();
-            // console.log("test2")
-            // console.log(this.opts.colorStop)
-        }
-        else{
-                this.opts.colorStop = ('#e0274a');
-                this.initializeGauge();
-                // console.log("test3")
-                // console.log(this.opts.colorStop)
-        }
+      if(this.gaugeScore >= 80) {
+        this.opts.colorStop = '#15a15f';
+        this.initializeGauge();
+        // console.log("test1")
+        // console.log(this.opts.colorStop)
+      }
+      else if(this.gaugeScore < 80 && this.gaugeScore > 50) {
+        this.opts.colorStop = '#ffc107';
+        this.initializeGauge();
+        // console.log("test2")
+        // console.log(this.opts.colorStop)
+      }
+      else{
+        this.opts.colorStop = ('#e0274a');
+        this.initializeGauge();
+        // console.log("test3")
+        // console.log(this.opts.colorStop)
+      }
     },
 
   },
@@ -151,10 +151,10 @@ export default {
 <style scoped>
 
 .gaugeStyle {
-    position: absolute;
-    text-align: center;
-    left: 0;
-    right: 0;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
 }
 
 </style>
