@@ -13,6 +13,7 @@
 
 - Requires: gaugeJS, Bootstrap, Vue.js
 - To install gaugeJS you can install the node package with (npm i gaugeJS). Link for reference https://www.npmjs.com/package/gaugeJS.
+- For quick install of this project use (npm install).
 - To run the application use (npm run serve).
 
 <br>
